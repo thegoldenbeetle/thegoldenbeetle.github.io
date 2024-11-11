@@ -1,0 +1,29 @@
+baseURL: https://thegoldenbeetle.github.io/
+languageCode: en-us
+title: Liudmila Vasileva
+theme: ["PaperMod"]
+
+params:
+  profileMode:
+    enabled: true
+    title: "Liudmia Vasileva" # optional default will be site title
+    subtitle: "Deep Learning Engineer"
+    imageUrl: "https://thegoldenbeetle.github.io/images/me.jpg" # optional
+    imageTitle: "My image" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Projects
+        url: "/projects"
+      - name: Blog
+        url: "/blog"
+      - name: CV
+        url: "/cv"
+
+  socialIcons: # optional
+    - name: "gitlab"
+      url: "https://gitlab.com/thegoldenbeetle/"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/liudmila-vasileva-008182166/"      
+    - name: "github"
+      url: "https://github.com/thegoldenbeetle"
