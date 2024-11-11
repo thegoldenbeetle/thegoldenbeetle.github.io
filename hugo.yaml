@@ -8,17 +8,17 @@ params:
     enabled: true
     title: "Liudmia Vasileva" # optional default will be site title
     subtitle: "Deep Learning Engineer"
-    imageUrl: "https://thegoldenbeetle.github.io/images/me.jpg" # optional
+    imageUrl: https://github.com/thegoldenbeetle/thegoldenbeetle.github.io/blob/master/images/me.jpg?raw=true # optional
     imageTitle: "My image" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
-    buttons:
-      - name: Projects
-        url: "/projects"
-      - name: Blog
-        url: "/blog"
-      - name: CV
-        url: "/cv"
+    imageWidth: 210 # custom size
+    imageHeight: 210 # custom size
+    # buttons:
+    #   - name: Projects
+    #     url: "/projects"
+    #   - name: Blog
+    #     url: "/blog"
+    #   - name: CV
+    #     url: "/cv"
 
   socialIcons: # optional
     - name: "gitlab"
@@ -27,3 +27,19 @@ params:
       url: "https://www.linkedin.com/in/liudmila-vasileva-008182166/"      
     - name: "github"
       url: "https://github.com/thegoldenbeetle"
+
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: posts/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: projects/
+      weight: 10
+    - identifier: cv
+      name: CV
+      url: cv/
+      weight: 30

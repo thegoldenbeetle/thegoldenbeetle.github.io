@@ -1,0 +1,185 @@
++++
+layout = "cv"
++++
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        /* body {
+            /* font-family: Arial, sans-serif; */
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        } */
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-size: 14px;
+        }
+        h2 {
+            /* color: #333; */
+            font-size: 1.3em;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        /* About Section */
+        .about {
+            font-size: 0.95em;
+            /* color: #555; */
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        /* Skills Section */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .skill-tag {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: #e0e0e0; */
+            /* color: #555; */
+            padding: 6px 10px;
+            border-radius: 16px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .skill-tag img {
+            width: 14px;
+            height: 14px;
+            margin-right: 6px;
+        }
+        /* Work Experience & Education Styles */
+        .experience, .education {
+            padding-left: 15px;
+            border-left: 2px solid #ddd;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+        }
+        .experience-item h3, .education-item h3 {
+            font-size: 1em;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        .experience-item img {
+            width: 18px;
+            height: 18px;
+            margin-right: 8px;
+        }
+        .experience-item p, .education-item p {
+            margin: 0;
+            font-size: 0.85em;
+            color: #666;
+        }
+        .award-list li {
+            padding-left: 20px;
+            position: relative;
+            font-size: 0.85em;
+        }
+        .award-list li::before {
+            content: "🏆";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- About Section -->
+    <div class="section about">
+        <p><strong>About:</strong> Passionate software developer with 5+ years of experience in web development and a strong foundation in full-stack technologies. Skilled in creating efficient and user-friendly applications, with a focus on scalability and optimization.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill-tag">
+                <img src="https://cdn-icons-png.flaticon.com/512/888/888859.png" alt="HTML Icon"> HTML
+            </div>
+            <div class="skill-tag">
+                <img src="https://cdn-icons-png.flaticon.com/512/888/888847.png" alt="CSS Icon"> CSS
+            </div>
+            <div class="skill-tag">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS Icon"> JavaScript
+            </div>
+            <div class="skill-tag">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="Python Icon"> Python
+            </div>
+            <div class="skill-tag">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919841.png" alt="React Icon"> React
+            </div>
+            <div class="skill-tag">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="Django Icon"> Django
+            </div>
+            <div class="skill-tag">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111288.png" alt="Git Icon"> Git
+            </div>
+            <div class="skill-tag">
+                <img src="https://cdn-icons-png.flaticon.com/512/873/873120.png" alt="Docker Icon"> Docker
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="section">
+        <h2>Work Experience</h2>
+        <div class="experience">
+            <div class="experience-item">
+                <h3><img src="https://cdn-icons-png.flaticon.com/512/732/732221.png" alt="Company Icon"> Software Developer - XYZ Corporation</h3>
+                <p><em>January 2020 - Present</em></p>
+                <p>Developed and maintained web applications, improved codebase efficiency, and collaborated with cross-functional teams.</p>
+            </div>
+            <div class="experience-item">
+                <h3><img src="https://cdn-icons-png.flaticon.com/512/732/732223.png" alt="Company Icon"> Junior Developer - ABC Tech</h3>
+                <p><em>June 2018 - December 2019</em></p>
+                <p>Assisted in building and testing applications, fixed bugs, and supported senior developers in various projects.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Science - University of Example</h3>
+                <p><em>September 2014 - June 2018</em></p>
+                <p>Graduated with Honors; GPA: 3.8/4.0</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Awards Section -->
+    <div class="section">
+        <h2>Awards</h2>
+        <ul class="award-list">
+            <li>Dean’s List - University of Example (2015-2018)</li>
+            <li>Best Developer Award - XYZ Corporation (2021)</li>
+            <li>Hackathon Winner - Local Tech Hackathon (2019)</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
